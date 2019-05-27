@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" preserve-order="true" thread-count="1">
+  <test name="Login Functionality">
+	  <classes>
+		 <class name="TestCases.TestCaseLogin"/>
+	  </classes>
+  </test> <!-- Test -->
+  <test name="Search Flight Functionality">
+	  <classes>
+		 <class name="TestCases.TestCaseSearchFlight"/>
+	  </classes>
+  </test> <!-- Test -->
+  <test name="Select Flight Functionality">
+	  <classes>
+		 <class name="TestCases.TestCaseSelectFlight"/>
+	  </classes>
+  </test> <!-- Test -->
+  <test name="Book Flight Functionality">
+	  <classes>
+		 <class name="TestCases.TestCaseBookFlight"/>
+	  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TestCases.TestCaseLogin">
+        <methods>
+          <include name="checkIncorrectLogin1"/>
+          <include name="verifyFeaturedImage"/>
+          <include name="DateCheck"/>
+          <include name="quitDriver"/>
+          <include name="checkCorrectLogin"/>
+          <include name="LoginSection"/>
+          <include name="checkIncorrectLogin2"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- TestCases.TestCaseLogin -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

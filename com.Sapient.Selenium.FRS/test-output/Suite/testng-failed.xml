@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Login Functionality(failed)">
+    <classes>
+      <class name="TestCases.TestCaseLogin">
+        <methods>
+          <include name="checkIncorrectLogin1"/>
+          <include name="verifyFeaturedImage"/>
+          <include name="DateCheck"/>
+          <include name="checkCorrectLogin"/>
+          <include name="LoginSection"/>
+          <include name="checkIncorrectLogin2"/>
+          <include name="setupApplication"/>
+          <include name="closeApplication"/>
+        </methods>
+      </class> <!-- TestCases.TestCaseLogin -->
+    </classes>
+  </test> <!-- Login Functionality(failed) -->
+  <test thread-count="5" name="Search Flight Functionality(failed)">
+    <classes>
+      <class name="TestCases.TestCaseSearchFlight">
+        <methods>
+          <include name="SearchFlight"/>
+          <include name="setupApplication"/>
+          <include name="closeApplication"/>
+        </methods>
+      </class> <!-- TestCases.TestCaseSearchFlight -->
+    </classes>
+  </test> <!-- Search Flight Functionality(failed) -->
+  <test thread-count="5" name="Select Flight Functionality(failed)">
+    <classes>
+      <class name="TestCases.TestCaseSelectFlight">
+        <methods>
+          <include name="checkSorting"/>
+          <include name="selectFlight"/>
+          <include name="setupApplication"/>
+          <include name="closeApplication"/>
+        </methods>
+      </class> <!-- TestCases.TestCaseSelectFlight -->
+    </classes>
+  </test> <!-- Select Flight Functionality(failed) -->
+  <test thread-count="5" name="Book Flight Functionality(failed)">
+    <classes>
+      <class name="TestCases.TestCaseBookFlight">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="closeApplication"/>
+          <include name="BookFlights"/>
+        </methods>
+      </class> <!-- TestCases.TestCaseBookFlight -->
+    </classes>
+  </test> <!-- Book Flight Functionality(failed) -->
+</suite> <!-- Failed suite [Suite] -->

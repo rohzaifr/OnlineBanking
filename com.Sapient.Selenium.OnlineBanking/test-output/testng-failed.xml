@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="TestCases.TestCaseAccountSummary"/>
+      <class name="TestCases.TestCaseLogin"/>
+      <class name="TestCases.TestCaseBankingHome"/>
+      <class name="TestCases.TestCaseTransferFunds"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="TestCases.TestCaseAccountSummary">
+        <methods>
+          <include name="verifyAccountSummary"/>
+          <include name="quitDriver"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- TestCases.TestCaseAccountSummary -->
+      <class name="TestCases.TestCaseBankingHome">
+        <methods>
+          <include name="verifyBankingDetails"/>
+          <include name="quitDriver"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- TestCases.TestCaseBankingHome -->
+      <class name="TestCases.TestCaseLogin">
+        <methods>
+          <include name="verifyLogo"/>
+          <include name="checkIncorrectLogin"/>
+          <include name="verifyTabs"/>
+          <include name="quitDriver"/>
+          <include name="checkCorrectLogin"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- TestCases.TestCaseLogin -->
+      <class name="TestCases.TestCaseTransferFunds">
+        <methods>
+          <include name="initializeDriver"/>
+          <include name="FundsTransfer"/>
+        </methods>
+      </class> <!-- TestCases.TestCaseTransferFunds -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

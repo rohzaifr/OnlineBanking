@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49652" started-at="2018-12-06T08:39:33Z" finished-at="2018-12-06T08:40:23Z">
+    <groups>
+    </groups>
+    <test name="Login Functionality" duration-ms="15129" started-at="2018-12-06T08:39:33Z" finished-at="2018-12-06T08:39:48Z">
+      <class name="TestCases.TestCaseLogin">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:TestCases.TestCaseLogin@78e4deb0]" name="initializeDriver" is-config="true" duration-ms="2623" started-at="2018-12-06T08:39:33Z" finished-at="2018-12-06T08:39:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="DateCheck()[pri:0, instance:TestCases.TestCaseLogin@78e4deb0]" name="DateCheck" duration-ms="99" started-at="2018-12-06T08:39:36Z" finished-at="2018-12-06T08:39:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateCheck -->
+        <test-method status="PASS" signature="verifyFeaturedImage()[pri:1, instance:TestCases.TestCaseLogin@78e4deb0]" name="verifyFeaturedImage" duration-ms="48" started-at="2018-12-06T08:39:36Z" finished-at="2018-12-06T08:39:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeaturedImage -->
+        <test-method status="PASS" signature="LoginSection()[pri:2, instance:TestCases.TestCaseLogin@78e4deb0]" name="LoginSection" duration-ms="2319" started-at="2018-12-06T08:39:36Z" finished-at="2018-12-06T08:39:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSection -->
+        <test-method status="PASS" signature="checkIncorrectLogin1()[pri:3, instance:TestCases.TestCaseLogin@78e4deb0]" name="checkIncorrectLogin1" duration-ms="1768" started-at="2018-12-06T08:39:38Z" finished-at="2018-12-06T08:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIncorrectLogin1 -->
+        <test-method status="PASS" signature="checkIncorrectLogin2()[pri:4, instance:TestCases.TestCaseLogin@78e4deb0]" name="checkIncorrectLogin2" duration-ms="2072" started-at="2018-12-06T08:39:40Z" finished-at="2018-12-06T08:39:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIncorrectLogin2 -->
+        <test-method status="PASS" signature="checkCorrectLogin()[pri:5, instance:TestCases.TestCaseLogin@78e4deb0]" name="checkCorrectLogin" duration-ms="5381" started-at="2018-12-06T08:39:42Z" finished-at="2018-12-06T08:39:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCorrectLogin -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:TestCases.TestCaseLogin@78e4deb0]" name="quitDriver" is-config="true" duration-ms="791" started-at="2018-12-06T08:39:47Z" finished-at="2018-12-06T08:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- TestCases.TestCaseLogin -->
+    </test> <!-- Login Functionality -->
+    <test name="Search Flight Functionality" duration-ms="11789" started-at="2018-12-06T08:39:48Z" finished-at="2018-12-06T08:40:00Z">
+      <class name="TestCases.TestCaseSearchFlight">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:TestCases.TestCaseSearchFlight@3ad83a66]" name="initializeDriver" is-config="true" duration-ms="2056" started-at="2018-12-06T08:39:48Z" finished-at="2018-12-06T08:39:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="SearchFlight()[pri:6, instance:TestCases.TestCaseSearchFlight@3ad83a66]" name="SearchFlight" duration-ms="8844" started-at="2018-12-06T08:39:50Z" finished-at="2018-12-06T08:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchFlight -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:TestCases.TestCaseSearchFlight@3ad83a66]" name="quitDriver" is-config="true" duration-ms="887" started-at="2018-12-06T08:39:59Z" finished-at="2018-12-06T08:40:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- TestCases.TestCaseSearchFlight -->
+    </test> <!-- Search Flight Functionality -->
+    <test name="Select Flight Functionality" duration-ms="11841" started-at="2018-12-06T08:40:00Z" finished-at="2018-12-06T08:40:12Z">
+      <class name="TestCases.TestCaseSelectFlight">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:TestCases.TestCaseSelectFlight@461ad730]" name="initializeDriver" is-config="true" duration-ms="2011" started-at="2018-12-06T08:40:00Z" finished-at="2018-12-06T08:40:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="checkSorting()[pri:7, instance:TestCases.TestCaseSelectFlight@461ad730]" name="checkSorting" duration-ms="6471" started-at="2018-12-06T08:40:02Z" finished-at="2018-12-06T08:40:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSorting -->
+        <test-method status="PASS" signature="selectFlight()[pri:8, instance:TestCases.TestCaseSelectFlight@461ad730]" name="selectFlight" duration-ms="2565" started-at="2018-12-06T08:40:09Z" finished-at="2018-12-06T08:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFlight -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:TestCases.TestCaseSelectFlight@461ad730]" name="quitDriver" is-config="true" duration-ms="792" started-at="2018-12-06T08:40:11Z" finished-at="2018-12-06T08:40:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- TestCases.TestCaseSelectFlight -->
+    </test> <!-- Select Flight Functionality -->
+    <test name="Book Flight Functionality" duration-ms="10856" started-at="2018-12-06T08:40:12Z" finished-at="2018-12-06T08:40:23Z">
+      <class name="TestCases.TestCaseBookFlight">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:TestCases.TestCaseBookFlight@6aa8e115]" name="initializeDriver" is-config="true" duration-ms="2047" started-at="2018-12-06T08:40:12Z" finished-at="2018-12-06T08:40:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="BookFlights()[pri:9, instance:TestCases.TestCaseBookFlight@6aa8e115]" name="BookFlights" duration-ms="7822" started-at="2018-12-06T08:40:14Z" finished-at="2018-12-06T08:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookFlights -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:TestCases.TestCaseBookFlight@6aa8e115]" name="quitDriver" is-config="true" duration-ms="984" started-at="2018-12-06T08:40:22Z" finished-at="2018-12-06T08:40:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- TestCases.TestCaseBookFlight -->
+    </test> <!-- Book Flight Functionality -->
+  </suite> <!-- Suite -->
+</testng-results>
